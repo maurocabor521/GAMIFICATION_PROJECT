@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:id="@+id/ll_conciencia_contenedor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_conciencia_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="Titulo"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento_1"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_conciencia_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/editTextColorWhite">
+
+            <ImageView
+                android:id="@+id/iv_conciencia_imagen"
+                android:layout_width="80px"
+                android:layout_height="80px"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="center"
+                android:text="Descripción"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_conciencia_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="7"
+                android:singleLine="false"
+                android:text="Descripción"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <!--   <me.biubiubiu.justifytext.library.JustifyTextView
+                   android:id="@+id/txt_conciencia_description"
+                   android:text="Descripción"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:ellipsize="end"
+                   android:maxLines="7"
+                   android:singleLine="false"
+
+                   android:textColor="@android:color/white"
+                   android:textSize="@dimen/tsize_documento"
+                   android:textStyle="bold"
+                   />-->
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

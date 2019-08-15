@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        id="@+id/home_null"
+        title=""
+        android:layout_width="0dp"/>
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"
+        id="@+id/home_administrador"
+        title="Admin" />
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"
+        id="@+id/home_docente"
+        title="Docente" />
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"
+        id="@+id/home_estudiante"
+        title="Estudiante" />
+    <tab
+        barColorWhenSelected="@color/colorPrimary"
+        id="@+id/home_null1"
+        title="" />
+</tabs>

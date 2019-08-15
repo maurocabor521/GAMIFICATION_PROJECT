@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_misgrupos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mis Grupos"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_actividades"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Actividades"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_misejercicios"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mis Ejercicios"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_con_fonica"
+            android:icon="@drawable/ic_conciencia_fonica"
+            android:title="Conciencia Fónica" />
+
+         <item
+             android:id="@+id/nav_con_fonica_actividades"
+             android:icon="@drawable/ic_flecha_der_20dp"
+             android:title="Actividades"
+             android:visible="false" />
+
+        <item
+            android:id="@+id/nav_con_fonica_ejercicios"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Ejercicios"
+            android:gravity="center"
+            android:visible="false" />
+         <item
+             android:id="@+id/nav_con_fonica_asignar"
+             android:icon="@drawable/ic_flecha_der_20dp"
+             android:title="Asignar Ejercicios"
+             android:gravity="center"
+             android:visible="false" />
+
+
+         <!--<item
+             android:id="@+id/nav_con_fonica_estudiantes"
+             android:icon="@drawable/ic_flecha_der_20dp"
+             android:title="Estudiantes"
+             android:gravity="center"
+             android:visible="false" />-->
+        <item
+            android:id="@+id/nav_con_lexica"
+            android:icon="@drawable/ic_conciencia_lexica"
+            android:title="Conciencia Léxica" />
+        <item
+            android:id="@+id/nav_con_lexica_actividades"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Actividades"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_con_lexica_ejercicios"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Ejercicios"
+            android:gravity="center"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_con_lexica_asignar"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Asignar Actividad"
+            android:gravity="center"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_con_lexica_estudiantes"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Estudiantes"
+            android:gravity="center"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_con_silabica"
+            android:icon="@drawable/ic_conciencia_silabica"
+            android:title="Conciencia Silábica" />
+        <item
+            android:id="@+id/nav_con_silabica_actividades"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Actividades"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_con_silabica_ejercicios"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Ejercicios"
+            android:gravity="center"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_con_silabica_asignar"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Asignar Actividad"
+            android:gravity="center"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_con_silabica_estudiantes"
+            android:icon="@drawable/ic_flecha_der_20dp"
+            android:title="Estudiantes"
+            android:gravity="center"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_asignardeber"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Asignar Deberes" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_consultar_notas"
+                android:icon="@drawable/icons8_editar_archivo_64"
+                android:title="Calificaciones|Reportes "
+                android:visible="false"/>
+            <!--item
+                android:id="@+id/nav_consultar_porcentajes"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Consultar Porcentajes " /
+            <item
+                android:id="@+id/nav_reportes"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Reportes" />-->
+        </menu>
+    </item>
+
+</menu>

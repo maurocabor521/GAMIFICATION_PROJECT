@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:id="@+id/ll_item_ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="id Ejercicio"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_ejercicioId_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="id Ejercicio"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="id Docente"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_docenteId_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="id Docente"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Nombre Ejercicio"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_ejercicioNombre_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Nombre Ejercicio"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Actividad"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_ejercicioActividad_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Actividad"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Tipo"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_ejercicioTipo_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Tipo"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

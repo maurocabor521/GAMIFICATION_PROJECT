@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.roughike.bottombar.BottomBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bar_home_access"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center|end"
+    android:visibility="visible"
+    app:bb_activeTabColor="@color/colorAccent"
+    app:bb_inActiveTabColor="@android:color/white"
+    app:bb_tabXmlResource="@xml/middle_bar"/>

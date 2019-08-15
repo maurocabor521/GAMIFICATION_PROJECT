@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Dconfo_App</string>
+    <string name="title_activity_home__admin">Administración</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_docente">HomeDocenteActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_docente">Nuevo Docente</string>
+    <string name="new_list_docente">Nuevos Docentes por Lista</string>
+    <string name="new_curso">Nuevo Curso</string>
+    <string name="new_estudiante">Nuevo Estudiante</string>
+    <string name="new_list_estudiante">Nueva Lista Estudiante</string>
+    <string name="titulo_Consultar_estudiante">Consultar Estudiante</string>
+    <string name="titulo_ingrese_documento">Ingrese Código</string>
+    <string name="new_grupo">Asignar Grupo a Curso</string>
+    <string name="allot_docente_to_grupo">Asignar Docente a Grupo</string>
+    <string name="AllotEstToGrupo_">Asignar Estudiante a Grupo</string>
+    <string name="new_grupo_">Nuevo Grupo</string>
+    <string name="list_cursos">Lista de Cursos</string>
+    <string name="titulo_Consultar_lista_cursos">Consultar lista de Cursos</string>
+    <string name="idCurso">ID Curso</string>
+    <string name="nameCurso">Nombre</string>
+    <string name="NombreCurso">Nombre Curso</string>
+    <string name="IDinstituto_CL">ID Instituto</string>
+    <string name="periodo_CL">Periodo</string>
+    <string name="title_activity_login_docente">Ingreso Sistema</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="idGrupo">IDGrupo</string>
+    <string name="NombreGrupo">Nombre Grupo</string>
+    <string name="idGrupoCurso">ID Curso</string>
+    <string name="home_tipo">Todo los Tipos</string>
+    <string name="home_tipo1">Tipo 1</string>
+    <string name="home_tipo2">Tipo 2</string>
+    <string name="Escuchar_Texto">Escuchar Texto</string>
+    <string name="idGrupoCant">Cant. Estudiantes</string>
+    <string name="action_my_groups">Mis Grupos</string>
+    <string name="enviar_mail">enviar_mail</string>
+    <string name="idDeber">ID Deber</string>
+    <string name="ID_Estudiante">ID Estudiante</string>
+    <string name="IDEjercicio">ID Ejercicio</string>
+    <string name="nota">Nota</string>
+    <string name="fecha">Fecha</string>
+    <string name="notaXEstudiante">Notas por Estudiante</string>
+    <string name="SeleccioneXEstudiante">Seleccione Estudiante</string>
+    <string name="X_Grupo">Notas por Grupos de Estudiantes</string>
+    <string name="idGrupoEstudiante">IdGrupoEst</string>
+    <string name="FechaGEHD">Fecha Asignación</string>
+    <string name="idGrupoEstHasDeber">idGEhD</string>
+    <string name="Notas_GrupoEstudiante">Notas Grupo Estudiante</string>
+    <string name="nav_header_title_1">DCONFO</string>
+    <string name="nav_header_subtitle_">andres.cabal@dconfo.edu.co</string>
+    <string name="FindNotasXTipoAct">Calificaciones X Tipo Asignación</string>
+    <string name="FindNotasXPrueba">X Prueba</string>
+    <string name="FindNotasXEjercicio">X Ejercicio</string>
+    <string name="FindNotasXEvaluacion">X Evaluación</string>
+    <string name="FindNotasXEjercicio_">X \\ Evaluación</string>
+</resources>

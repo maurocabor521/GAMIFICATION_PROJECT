@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbarlayout_height">70dp</dimen>
+    <dimen name="height_cardView">100dp</dimen>
+    <dimen name="cornerRadius">8dp</dimen>
+    <dimen name="textsize_username_card">15sp</dimen>
+    <dimen name="firstword_textsize_card">10sp</dimen>
+    <dimen name="timecard_marginleft_card">5sp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
+    <dimen name="bottombar_height_crearE">60dp</dimen>
+    <dimen name="layout_margintop_card">10dp</dimen>
+    <dimen name="activity_vertical_margin_16dp">16dp</dimen>
+    <dimen name="spacing">10dp</dimen>
+    <dimen name="edittext_margin_createaccount">10dp</dimen>
+    <dimen name="edittext_textsize_login">16sp</dimen>
+    <dimen name="imagen_width_250dp">250dp</dimen>
+    <dimen name="imagen_height_250dp">250dp</dimen>
+    <dimen name="tsize_documento">17sp</dimen>
+    <dimen name="elevation_ciecleimageprofile">10dp</dimen>
+    <dimen name="tsize_documento_1">30dp</dimen>
+    <dimen name="tsize_25dp">25dp</dimen>
+    <dimen name="tsize_35dp">35dp</dimen>
+    <dimen name="tsize_5dp">5dp</dimen>
+    <dimen name="tsize_documento_idgrupo">25dp</dimen>
+    <dimen name="nav_header_height_1">250dp</dimen>
+    <dimen name="tsize_15dp">15dp</dimen>
+    <dimen name="tsize_20dp">20dp</dimen>
+</resources>

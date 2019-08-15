@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab id="@+id/bott_home_CED"
+        title="home"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/home"/>
+    <tab id="@+id/bott_tipo_CED"
+        title="tipo"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/bott_buscar_CED"
+        title="buscar"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/bott_new_CED"
+        title="nuevo"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/plus1"/>
+</tabs>

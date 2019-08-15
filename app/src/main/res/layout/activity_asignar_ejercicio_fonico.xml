@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.view.activity.docente.fonico.AsignarEjercicioFonicoActivity">
+
+    <include layout="@layout/actionbar_toolbar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Asignar Deber Ejercicio Fónico" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/sp_docente_fonico_estudiantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edittext_margin_createaccount"
+            android:theme="@style/EditTextBlack">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edt_id_fonico_estudiate_deber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Id Estudiante">
+
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/sp_docente_fonico_ejercicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edittext_margin_createaccount"
+            android:theme="@style/EditTextBlack">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edt_id_fonico_ejercicio_deber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Id Ejercicio">
+
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sp_docente_fonico_tipoDeber"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edittext_margin_createaccount"
+            android:theme="@style/EditTextBlack">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edt_docente_fonico_tipoDeber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo de Deber">
+
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_fonico_asignarDeber_deber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asignar Deber"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:theme="@style/RaisedButtonOrange"/>
+    </LinearLayout>
+
+</LinearLayout>

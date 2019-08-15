@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newDocente"
+            android:icon="@drawable/gerente"
+            android:title="Ingresar Docente" />
+        <item
+            android:id="@+id/nav_newListDocente"
+            android:icon="@drawable/tipo"
+            android:title="Ingresar Docente Lista" />
+        <item
+            android:id="@+id/nav_new_Estudiante"
+            android:icon="@drawable/estudiante2"
+            android:title="Ingresar Estudiante" />
+        <item
+            android:id="@+id/nav_new_ListEstudiante"
+            android:icon="@drawable/tipo"
+            android:title="Ingresar Estudiante Lista" />
+    </group>
+
+    <item android:title="Cursos">
+        <menu>
+            <item
+                android:id="@+id/nav_new_Act_Curso"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ingresar Menú Curso" />
+            <item
+                android:id="@+id/nav_All_Cursos"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Todos los Cursos" />
+            <item
+                android:id="@+id/nav_new_Curso"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Ingresar Curso" />
+            <item
+                android:id="@+id/nav_allocate_grupo_to_curso"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Asignar Grupo a Curso" />
+            <item
+                android:id="@+id/nav_allocate_docente_to_grupo"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Asignar Docente Grupo" />
+            <item
+                android:id="@+id/nav_allocate_estudiante_to_grupo"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Asignar Estudiante Grupo" />
+            <item
+                android:id="@+id/nav_consult_estudiante"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Consultar Estudiante" />
+
+        </menu>
+    </item>
+
+</menu>

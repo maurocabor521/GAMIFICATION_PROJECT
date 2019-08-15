@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.dconfo_app">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img_2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".presentation.view.activity.docente.reportes.MyReportsDocActivity"></activity>
+        <activity android:name=".presentation.view.activity.docente.reportes.ShowReportsDocActivity" />
+        <activity android:name=".presentation.view.activity.docente.reportes.ReportsDocActivity" />
+        <activity android:name=".presentation.view.activity.docente.notas.PorcentNotasActivity" />
+        <activity
+            android:name=".presentation.view.activity.docente.notas.NotasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.ejercicios.MisEjerciciosActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.grupos.GrupoNuevoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.grupos.GrupoDocenteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.actividades.ActividadDocenteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.silabico.AsignarEjercicioSilabicoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.silabico.NewEjercicioSilabicoDocenteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.fonico.AsignarEjercicioFonicoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.fonico.BankImagesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.fonico.NewEjercicioFonicoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.fonico.NewEjercicioFonicoDocenteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.AsignarEstudianteDeberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.AsignarDeberDocenteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.view.activity.docente.Home_ActivitiesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home_AppActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".presentation.view.activity.administrador.Home_AdminActivity"
+            android:label="@string/title_activity_home__admin"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".presentation.view.activity.docente.HomeDocenteActivity"
+            android:label="@string/title_activity_home_docente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.estudiante.HomeEstudianteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.estudiante.LoginEstudianteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.administrador.Home_NewCursoActivity"
+            android:parentActivityName=".presentation.view.activity.administrador.Home_AdminActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".presentation.view.activity.administrador.Home_AdminActivity" />
+        </activity>
+        <activity
+            android:name=".presentation.view.activity.docente.LoginDocenteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.ManageCursosDocenteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.view.activity.docente.GrupoDocenteActivity"
+            android:parentActivityName=".presentation.view.activity.docente.ManageCursosDocenteActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".presentation.view.activity.docente.ManageCursosDocenteActivity" />
+        </activity>
+        <activity
+            android:name=".presentation.view.activity.docente.ManageEjercicioDocenteActivity"
+            android:screenOrientation="portrait" />
+        <!--
+        <activity
+            android:name=".presentation.view.activity.docente.ManageEjercicioDocenteActivity"
+            android:parentActivityName=".presentation.view.activity.docente.HomeDocenteActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".presentation.view.activity.docente.HomeDocenteActivity" />
+        </activity>
+        -->
+        <activity
+            android:name=".presentation.view.activity.docente.NewEjercicioDocenteActivity"
+            android:parentActivityName=".presentation.view.activity.docente.ManageEjercicioDocenteActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".presentation.view.activity.docente.ManageEjercicioDocenteActivity" />
+        </activity>
+        <activity
+            android:name=".LoginMainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

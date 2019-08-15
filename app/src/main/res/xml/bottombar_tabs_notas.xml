@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab id="@+id/btn_home_notas"
+        title="Home"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/btn_estudiante"
+        title="X Estudiante"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/btn_grupos"
+        title="X Grupos"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/btn_tipoAsignacion"
+        title="X Tipo"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+</tabs>

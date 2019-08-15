@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab id="@+id/bot_deber_home_deberes"
+        title="deberes"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/home"/>
+    <tab id="@+id/bot_deber_volver"
+        title="tipo 1"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+
+
+</tabs>

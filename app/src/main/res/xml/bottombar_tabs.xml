@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab id="@+id/bott_curso"
+        title="curso"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/bott_grupo"
+        title="grupo"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/bott_estudiantes"
+        title="estudiantes"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+    <tab id="@+id/bott_all_cursos"
+        title="cursos"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_square_30dp"/>
+</tabs>

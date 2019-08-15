@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/ll_idgrupo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="@string/idGrupoEstudiante"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_GrupoEstHasDeber_IdGrupoEst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="@string/idGrupoEstudiante"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_FechaAsignacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_idgrupo"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="@string/FechaGEHD"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_GrupoEstHasDeber_fechaAsig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="@string/FechaGEHD"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_idGrupoEstHasDeber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_idgrupo"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="@string/idGrupoEstHasDeber"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_GrupoEstHasDeber_IdGEhD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="@string/idGrupoEstHasDeber"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tsize_documento"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

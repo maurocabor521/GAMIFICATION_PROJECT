@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.view.fragment.administrador.ConsultEstudianteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:text="@string/titulo_Consultar_estudiante"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edt_numero_codigo_CU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:hint="@string/titulo_ingrese_documento" />
+
+        <TextView
+            android:id="@+id/txv_codigo_estudiante_CU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp" />
+
+        <TextView
+            android:id="@+id/txv_nombre_estudiante_CU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp" />
+
+        <TextView
+            android:id="@+id/txv_acudiente_estudiante_CU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_consultarEstudiante_CU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/titulo_Consultar_estudiante"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imageId"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/linerLayout"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_no_foto_80dp" />
+
+
+</RelativeLayout>

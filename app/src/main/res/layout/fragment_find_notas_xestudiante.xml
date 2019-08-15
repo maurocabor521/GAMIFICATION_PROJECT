@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.view.fragment.docente.notas.FindNotasXEstudianteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/notaXEstudiante" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/orange"
+        android:gravity="center_horizontal"
+        android:text="@string/SeleccioneXEstudiante" />
+
+    <Spinner
+        android:id="@+id/sp_docente_estudiantes_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edittext_margin_createaccount"
+            android:theme="@style/EditTextBlack">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edt_doc_estudiante_nota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese Código Estudiante">
+
+            </android.support.design.widget.TextInputEditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_docente_buscar_todas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Todas"
+                android:theme="@style/RaisedButtonOrange"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_docente_buscar_act"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Actividades"
+                android:textSize="12dp"
+                android:theme="@style/RaisedButtonOrange"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btn_docente_buscar_grupos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grupos"
+                android:theme="@style/RaisedButtonOrange"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_docente_buscar_nota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver Tabla de %"
+                android:theme="@style/RaisedButtonOrange"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_docente_X_Est_notas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>
