@@ -4,24 +4,9 @@
     <color name="colorPrimaryDark">#006978</color>
     <color name="colorAccent">#56c8d8</color>-->
 
-    <!--<color name="colorPrimary">#56c8d8</color>
+    <color name="colorPrimary">#56c8d8</color>
     <color name="colorPrimaryDark">#006978</color>
-    <color name="colorAccent">#0097a7</color>-->
-
-    <color name="colorPrimary">#03A9F4</color>
-    <color name="colorPrimaryDark">#0288D1</color>
-    <color name="colorAccent">#FF4081</color>
-
-
-    <color name="colorPrimaryLight">#FFCDD2</color>
-
-    <color name="colorPrimaryText">#212121</color>
-    <color name="colorSecondaryText">#757575</color>
-    <color name="colorIcons">#FFFFFF</color>
-    <color name="colorDivider">#BDBDBD</color>
-
-    <color name="colorShadow">#A8A8A8</color>
-    <color name="backgroundRecyclerView">#f0f0f0</color>
+    <color name="colorAccent">#0097a7</color>
     <!--
     <color name="colorPrimary">#03A9F4</color>
     <color name="colorPrimaryDark">#0288D1</color>

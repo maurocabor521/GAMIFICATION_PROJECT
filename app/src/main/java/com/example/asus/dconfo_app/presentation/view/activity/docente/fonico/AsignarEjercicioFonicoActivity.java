@@ -100,7 +100,7 @@ public class AsignarEjercicioFonicoActivity extends AppCompatActivity {
         listaDeber.add("EVALUAR");
         listaDeber.add("PRUEBA");
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_item, listaDeber);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(), R.layout.spinner_item_personalizado, listaDeber);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinnerTipoDeber.setAdapter(adapter);
         spinnerTipoDeber.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -126,7 +126,7 @@ public class AsignarEjercicioFonicoActivity extends AppCompatActivity {
         btn_asignar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // cargarWebService();
+               cargarWebService();
 
             }
         });
@@ -208,23 +208,27 @@ public class AsignarEjercicioFonicoActivity extends AppCompatActivity {
                                 JSONObject jsonObject = null;
                                 jsonObject = array.getJSONObject(i);
                                 estudiante.setIdestudiante(jsonObject.optInt("estudiante_idestudiante"));
+                                estudiante.setNameestudiante(jsonObject.optString("nameEstudiante"));
 
                                 listaEstudiantes.add(estudiante);
                             }
 
                             final List<String> listaStringEstudiantes = new ArrayList<>();
+                            final List<String> listaStringEstudiantes1 = new ArrayList<>();
                             listaStringEstudiantes.add("Seleccione Id Estudiante");
+                            listaStringEstudiantes1.add("Seleccione Id Estudiante");
                             for (int i = 0; i < listaEstudiantes.size(); i++) {
-                                listaStringEstudiantes.add(listaEstudiantes.get(i).getIdestudiante().toString());
+                                listaStringEstudiantes.add(listaEstudiantes.get(i).getIdestudiante().toString()+"-"+listaEstudiantes.get(i).getNameestudiante());
+                                listaStringEstudiantes1.add(listaEstudiantes.get(i).getIdestudiante().toString());
                             }
-                            ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_item, listaStringEstudiantes);
+                            ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(), R.layout.spinner_item_personalizado, listaStringEstudiantes);
                             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                             spinner.setAdapter(adapter);
                             spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                                 @Override
                                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                                     if (position != 0) {
-                                        edt_idEstudiante.setText(listaStringEstudiantes.get(position));
+                                        edt_idEstudiante.setText(listaStringEstudiantes1.get(position));
                                     } else {
 
                                     }
@@ -314,7 +318,7 @@ public class AsignarEjercicioFonicoActivity extends AppCompatActivity {
                             for (int i = 0; i < listaEjercicios.size(); i++) {
                                 listaStringEjercicios.add(listaEjercicios.get(i).getIdEjercicioG2().toString());
                             }
-                            ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_item, listaStringEjercicios);
+                            ArrayAdapter<String> adapter = new ArrayAdapter<>(getApplicationContext(), R.layout.spinner_item_personalizado, listaStringEjercicios);
                             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                             spinnerEjercicios.setAdapter(adapter);
                             spinnerEjercicios.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

@@ -72,7 +72,8 @@ public class HomeEstudianteActivity extends AppCompatActivity implements
 
         nameestudiante = extra.getString("nameestudiante");
         idestudiante = extra.getInt("idestudiante");
-        showToolbar("Est: " + nameestudiante + " ,id: " + idestudiante, true);
+        System.out.println(" /////////////////////////////////////////////////////////// idestudiante: "+idestudiante);
+        showToolbar( " ,id: " + idestudiante, true);
 
 
         crearTranstition();

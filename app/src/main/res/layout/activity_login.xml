@@ -15,6 +15,11 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/dconfo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="estudiante"
+        android:gravity="center_horizontal"/>
 
     <LinearLayout
         android:layout_width="match_parent"

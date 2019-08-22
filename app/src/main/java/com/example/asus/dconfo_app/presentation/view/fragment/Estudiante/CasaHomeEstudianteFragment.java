@@ -183,21 +183,21 @@ public class CasaHomeEstudianteFragment extends Fragment implements Response.Lis
 
         nameestudiante = getArguments().getString("nameEstudiante");
         txt_name.setText(nameestudiante);
-        //idestudiante = getArguments().getInt("idEstudiante");
-        idestudiante = 0;
+        idestudiante = getArguments().getInt("idEstudiante");
+        //idestudiante = 0;
 
         bundle_t2.putString("nameEstudiante", nameestudiante);
         bundle_t2.putInt("idEstudiante", idestudiante);
         System.out.println("id del estudiante****************" + idestudiante);
 
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Hola!!! " + nameestudiante + " - id: " + idestudiante);
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Nombre: "+ nameestudiante +" - id: " + idestudiante);
 
         if (flag_cws == false) {
 
             cargarWebService();
             //crearRecyclerview();
         }
-        // cargarWebService1();
+        //cargarWebService1();
 
 
         return view;
